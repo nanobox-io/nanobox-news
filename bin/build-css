@@ -1,0 +1,1 @@
+node-sass --include-path scss content/themes/nanobox/assets/scss/all.scss content/themes/nanobox/assets/css/styles.css

@@ -1,0 +1,11 @@
+<h4>{{this.list-title}}</h4>
+<ul>
+  {{#get "posts" include="tags" limit="all"}}
+    {{#foreach posts}}
+      {{#has tag=../../tag }}
+        {{#has tag=../../subtag }}
+          <li><a href="/{{slug}}">{{title}}</a></li>
+      {{else}}{{/has}}{{/has}}
+    {{/foreach}}
+  {{/get}}
+</ul>

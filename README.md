@@ -1,27 +1,27 @@
-# Nanobox Content site
-This repo is is the Ghost app that powers [content.nanobox.io](https://content.nanobox.io).
+# Nanobox News Site
+This repo is is the Ghost app that powers [news.nanobox.io](https://news.nanobox.io).
 
 ## Clone the Repo
 
 ```bash
 # clone the code
-git clone https://github.com/nanobox-quickstarts/nanobox-ghost.git
+git clone https://github.com/nanobox-io/nanobox-news.git
 
 # cd into the ghost app
-cd nanobox-ghost
+cd nanobox-news
 ```
 
 ## Run the App
 
 ```bash
 # Add a convenient way to access your app from the browser
-nanobox dns add local content.nanobox.dev
+nanobox dns add local news.nanobox.dev
 
 # Run Ghost with Nanobox
 nanobox run yarn start
 ```
 
-Visit your app at <a href="http://content.nanobox.dev:2368" target="\_blank">content.nanobox.dev:2368</a>
+Visit your app at <a href="http://news.nanobox.dev:2368" target="\_blank">content.nanobox.dev:2368</a>
 
 ## Adding Category & Subcategory Pages
 As we start to categorize and subcategorize posts, we'll need to add category and subcategory pages.
