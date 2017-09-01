@@ -1,5 +1,5 @@
 {
-    "url": "http://ghost.nanoapp.io",
+    "url": "https://news.nanobox.io",
     "database": {
             "client": "mysql",
             "connection": {
@@ -12,7 +12,7 @@
     },
     "server": {
         "host": "0.0.0.0",
-        "port": 8080
+        "port": 2368
     },
     "logging": {
         "path": "/app/content/logs",
@@ -26,8 +26,9 @@
     },
     "mail": {
         "transport": "SMTP",
+        "from": "ghost@nanobox.io",
         "options": {
-            "service": "Mailgun",
+            "service": "Mandrill",
             "auth": {
                 "user": "",
                 "pass": ""

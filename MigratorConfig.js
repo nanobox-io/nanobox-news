@@ -8,9 +8,9 @@ module.exports = {
     database: {
             "client": "mysql",
             "connection": {
-                "host": process.env.DATA_DB_HOST,
-                "user": process.env.DATA_DB_USER,
-                "password": process.env.DATA_DB_PASS,
+                "host": process.env.DATA_MYSQL_HOST,
+                "user": process.env.DATA_MYSQL_USER,
+                "password": process.env.DATA_MYSQL_PASS,
                 "database": "gonano",
                 "charset": "utf8"
             }
