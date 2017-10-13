@@ -6,7 +6,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "ghost": "1.10.0",
+    "ghost": "1.13.0",
     "knex-migrator": "^2.1.4"
   },
   "scripts": {
